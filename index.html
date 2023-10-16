@@ -1,10 +1,4 @@
-from flask import Flask, jsonify  
-  
-app = Flask(__name__)  
-  
-@app.route('/api/v1/get_products', methods=['GET'])  
-def get_products():  
-    response = {  
+
         "status": 200,  
         "responseType": 0,  
         "code": "000000",  
